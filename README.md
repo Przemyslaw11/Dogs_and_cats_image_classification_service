@@ -15,7 +15,7 @@ The 64 neurons in the dense layer get their source of input data from all the ot
 
 ⚪ Binary_crossentropy loss is great decision for this implementation because it is independent for each vector component (class), meaning that the loss computed for every CNN output vector component is not affected by other component values. In the context of binary classification in this model it is natural to use Binary crossentropy.
 
-⚫ Model was trained by 15 epochs in 64 photos packages. The model predicts dogs(0) and cats(1) on the photos with accuracy around 70%
+⚫ Model was trained by 15 epochs with batch consisted of 64 photos. The model predicts dogs(0) and cats(1) on the photos with accuracy around 70%
 
 ### Dataset is available under the following link:
 - https://drive.google.com/drive/folders/1dZvL1gi5QLwOGrfdn9XEsi4EnXx535bD?usp=sharing
