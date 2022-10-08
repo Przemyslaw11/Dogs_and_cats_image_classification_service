@@ -23,7 +23,7 @@ async def predict(file: UploadFile = File(...)):
     image = Image.open(io.BytesIO(file_content)).resize((100,100))
     pix_arr = np.array(image)
     pred = model.predict(pix_arr.reshape(1,100,100,3))[0,0]
-    # acc = pred
+    #acc = pred
     pred = "dog" if pred < 0.5 else "cat"
     return {
         "prediction": f"{pred}",
