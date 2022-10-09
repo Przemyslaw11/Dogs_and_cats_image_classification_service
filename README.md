@@ -21,4 +21,4 @@ The 64 neurons in the dense layer get their source of input data from all the ot
 - https://drive.google.com/drive/folders/1dZvL1gi5QLwOGrfdn9XEsi4EnXx535bD?usp=sharing
 
 ### Code with full documentation of the model was saved in Google Colab notebook and is available at the following link : 
-- https://colab.research.google.com/drive/1dkcp01chamW9iL8soy3ZAfiU1toO1Gwd#scrollTo=BSKMFaho8fui
+- https://colab.research.google.com/drive/1dkcp01chamW9iL8soy3ZAfiU1toO1Gwd?usp=sharing
